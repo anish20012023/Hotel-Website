@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+
+body {
+    overflow-x: hidden;
+
+    line-height: 2.5rem;
+}
+
+header {
+    width: 100vw;
+
+}
+
+
+.nav-bar {
+    padding: 0 10rem;
+    overflow: auto;
+    background-color: #292828;
+
+}
+
+#logo {
+    float: left;
+    height: 100%;
+    padding-top: 2rem;
+
+}
+
+#logo a {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#menu {
+    list-style: none;
+    height: 100%;
+    float: right;
+
+
+
+}
+
+#menu li {
+    float: left;
+    margin-left: 2rem;
+    height: 100%;
+
+
+}
+
+#menu li a {
+    color: white;
+    display: block;
+    height: 100%;
+    padding: 2rem;
+    font-size: 1.6rem;
+
+
+}
+
+#menu li a:hover {
+    background: #444;
+    color: #f7c08a;
+
+}
+
+#outer-cont {
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 60rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#inner-cont {
+    text-align: center;
+    padding: 1rem;
+    width: 80%;
+
+}
+
+#inner-cont h1 {
+    font-size: 5rem;
+    line-height: 10rem;
+    margin-bottom: 1rem;
+}
+
+#inner-cont h1 span {
+    color: #f7c08a;
+
+
+}
+
+#inner-cont p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+#inner-cont a {
+    color: white;
+    font-size: 1.5rem;
+    background: #333;
+    padding: 2rem;
+    line-height: 10rem;
+
+}
+
+#inner-cont a:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.home-info {
+    height: 35rem;
+
+}
+
+.info-img {
+    background: url("/images/ph1.jpg") no-repeat center center/cover;
+    width: calc(100% / 2);
+    height: 100%;
+    float: left;
+}
+
+.info-cont {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    width: calc(100% / 2);
+    height: 100%;
+    float: right;
+
+}
+
+.info-cont h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.info-cont h2 span {
+    color: #f7c08a;
+}
+
+.info-cont p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.info-cont a {
+    text-decoration: none;
+    color: #333;
+    background: white;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+
+
+}
+
+.info-cont a:hover {
+    background: #f7c08a;
+}
+
+.feature-div {
+    height: 28rem;
+
+
+}
+
+.box {
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 5rem;
+    overflow: hidden;
+
+}
+
+.box i {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+
+}
+
+.box p {
+    font-size: 1.5rem;
+}
+
+.box2 {
+    background: #f7c08a;
+}
+
+footer {
+    background: #292828;
+    color: white;
+    text-align: center;
+    height: 6rem;
+}
+
+footer p {
+    font-size: 1.5rem;
+    padding: 1.6rem;
+}
+
+.active {
+    background: #434343;
+    color: #f7c08a !important;
+}
+
+/* About section css starts from here  */
+
+.about-sec1 {
+    height: 37rem;
+    background: #F4F4F4;
+    ;
+
+}
+
+.abt-sect1-div {
+    width: 50%;
+    padding: 3rem;
+    height: 100%;
+    float: left;
+
+}
+
+.abt-sec1-div1 {
+    padding-left: 8rem;
+
+}
+
+.abt-sec1-div1 h1 {
+    font-size: 4rem;
+    margin: 3rem 0rem;
+
+}
+
+.abt-sec1-div1 h1 span {
+    color: #f7c08a;
+}
+
+.abt-sec1-div1 p {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.abt-sec1-div2 {
+    padding-top: .5rem;
+}
+
+.abt-sec1-div2 div {
+    width: 36rem;
+    height: 36rem;
+    border-radius: 50%;
+    background: url("../images/ph2.jpg") no-repeat center center/cover;
+    float: right;
+    margin-right: 15rem;
+}
+
+.about-sec2 {
+    height: 60rem;
+    background: url("/images/testbg.jpg") no-repeat center center/cover;
+    text-align: center;
+    padding-top: 5rem;
+
+}
+
+.about-sec2 h1 {
+    font-size: 4rem;
+    color: white;
+    line-height: 10rem;
+}
+
+.about-sec2-div {
+    background: #f7c08a;
+    width: 85%;
+    height: 15rem;
+    margin: auto;
+    border-radius: .8rem;
+    margin-bottom: 5rem;
+}
+
+.about-sec2-div img {
+    height: 100%;
+    border-radius: 50%;
+    float: left;
+    padding: 2rem;
+}
+
+.about-sec2-div p {
+    width: 85%;
+    float: right;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+/* contact page css written here */
+.contact-sec {
+
+    height: max-content;
+    padding: 4rem 10rem;
+
+}
+
+.contact-sec h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.contact-sec span {
+    color: #f7c08a;
+}
+
+.contact-sec p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.frm-item {
+    margin-bottom: 1rem;
+}
+
+.frm-item label {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 3.8rem;
+
+
+}
+
+.frm-item input {
+    width: 95%;
+    height: 3.5rem;
+    border: .1rem solid rgb(205, 204, 204);
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.frm-item textarea {
+    width: 95%;
+    height: 20rem;
+    resize: none;
+    border-color: rgb(205, 204, 204);
+    padding: 1rem 0 0 1rem;
+    font-size: 1.5rem;
+}
+
+.frm-item textarea:focus,
+input:focus {
+    outline: .1rem solid red;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+form button:hover {
+    background-color: #f7c08a;
+    color: black;
+}
+
+.cnct-details {
+    height: 25rem;
+    background: #414141;
+    color: white;
+}
+
+.cnt-box {
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 5rem;
+}
+
+.cnt-box i {
+    font-size: 5rem;
+}
+
+.cnt-box h3 {
+    font-size: 1.7rem;
+
+}
+
+.cnt-box p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
