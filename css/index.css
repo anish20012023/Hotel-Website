@@ -418,3 +418,317 @@ form button:hover {
     margin-top: 2rem;
     font-size: 1.6rem;
 }
+
+
+
+/* responsive media query for max-width 768px */
+
+@media only screen and (max-width:768px) {
+    /* home page mobile view css */
+
+    html {
+        font-size: 45%;
+
+    }
+
+
+    body {
+        line-height: 2.5rem;
+    }
+
+    .nav-bar {
+        text-align: center;
+        padding: 1rem 3rem;
+
+    }
+
+    #logo {
+        float: none;
+        margin-bottom: 2rem;
+    }
+
+    #logo a {
+        font-size: 4rem;
+        color: white;
+    }
+
+    #menu {
+        float: none;
+
+    }
+
+    #menu li {
+
+        float: none;
+        margin: 0rem;
+    }
+
+    #menu li a {
+        padding: 1.5rem;
+        font-size: 2.3rem;
+    }
+
+    #menu li a:hover {
+        background: #444;
+        color: #f7c08a;
+
+    }
+
+
+
+    #inner-cont {
+        text-align: center;
+        padding: 0rem;
+        width: 85%;
+
+    }
+
+    #inner-cont h1 {
+        font-size: 7rem;
+        line-height: 7.5rem;
+        margin-bottom: 4rem;
+
+    }
+
+
+    #inner-cont p {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    #inner-cont a {
+        font-size: 2.4rem;
+        line-height: 13rem;
+
+    }
+
+
+    .home-info {
+        height: 65rem;
+
+    }
+
+    .info-img {
+        display: none;
+    }
+
+    .info-cont {
+        float: none;
+        width: 100%;
+
+    }
+
+    .info-cont h2 {
+        font-size: 3.7rem;
+        margin: 4rem 0;
+        line-height: 4rem;
+    }
+
+
+    .info-cont p {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .info-cont a {
+        padding: 1.5rem;
+        font-size: 2.4rem;
+
+    }
+
+
+    .feature-div {
+        height: auto;
+
+
+
+    }
+
+    .box {
+        width: 100%;
+        float: none;
+        padding: 12rem 5rem;
+
+    }
+
+    .box i {
+        font-size: 6rem;
+    }
+
+    .box h3 {
+        font-size: 2.3rem;
+
+    }
+
+    .box p {
+        font-size: 2.2rem;
+    }
+
+
+    footer {
+        height: 10rem;
+    }
+
+    footer p {
+        font-size: 2rem;
+        padding: 3.2rem;
+    }
+
+    .active {
+        background: #434343;
+        color: #f7c08a !important;
+    }
+
+    /* about page mobile view css */
+
+
+    .about-sec1 {
+        height: auto;
+
+
+    }
+
+    .abt-sect1-div {
+        width: 100%;
+        padding: 1rem;
+        float: none;
+
+    }
+
+    .abt-sec1-div1 {
+        padding-left: 3rem;
+
+    }
+
+    .abt-sec1-div1 h1 {
+        font-size: 4.5rem;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+
+    .abt-sec1-div1 p {
+        padding: 1.4rem;
+        font-size: 2.1rem;
+        line-height: 3.5rem;
+    }
+
+    .abt-sec1-div2 {
+        padding-top: .5rem;
+    }
+
+    .abt-sec1-div2 div {
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+
+    .about-sec2 {
+        height: auto;
+        padding: 1.5rem;
+
+    }
+
+    .about-sec2 h1 {
+        font-size: 5.5rem;
+        color: white;
+        line-height: 6.5rem;
+    }
+
+    .about-sec2-div {
+        margin-top: 3rem;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .about-sec2-div img {
+        height: 21rem;
+        padding: 2rem;
+        float: left;
+    }
+
+    .about-sec2-div p {
+        width: 100%;
+        float: none;
+        font-size: 2.5rem;
+        display: block;
+        line-height: 4rem;
+    }
+
+
+
+
+    /* contact page mobile view css */
+    .contact-sec {
+
+        height: max-content;
+        padding: 4rem 3rem;
+
+    }
+
+    .contact-sec h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .contact-sec p {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .frm-item {
+        margin-bottom: 2rem;
+    }
+
+    .frm-item label {
+        font-size:2.4rem;
+        line-height: 7rem;
+    }
+
+    .frm-item input {
+        height: 5rem;
+        font-size: 2.5rem;
+    }
+
+    .frm-item textarea {
+        font-size: 2.5rem;
+    }
+    form button {
+        padding: 1.6rem;
+        font-size: 2.4rem;
+    }
+
+    
+    .cnct-details {
+        height: auto;
+    }
+
+    .cnt-box {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 8rem;
+    }
+
+    .cnt-box i {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .cnt-box h3 {
+        font-size: 2.5rem;
+
+    }
+
+    .cnt-box p {
+        margin-top: 2rem;
+        font-size: 2.2rem;
+    }
+
+
+}
